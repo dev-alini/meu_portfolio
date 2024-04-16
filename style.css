@@ -1,0 +1,317 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.menu__title {
+    text-align: center;
+    font-size: 40px;
+    color: pink;
+}
+
+.menu__list {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin: 86px 2px 70px auto;
+    color: palevioletred;
+    }
+
+    .menu__list__item {
+        color: palevioletred;
+    }
+
+.menu__list__item__contato {
+    text-align: center;
+}
+
+.title__profile {
+    display: block;
+    margin: 0px auto;
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+
+.foto_menu {
+    display: flex;
+    margin: 86px 2px 70px auto;
+        
+    
+}
+
+.title__bio {
+    text-align: center;
+    color: palevioletred;
+}
+
+.title__subsection {
+    text-align: center;
+    color: palevioletred;
+}
+
+.title__network__item {
+    display: flex;
+    mix-blend-mode: multiply;
+    justify-content: center;
+}
+
+.about__title {
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+}
+
+.about__paragraph {
+    text-align: center;
+    font-size: 25px;
+    color: palevioletred;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+}
+
+
+
+.skills__box{
+    mix-blend-mode: multiply;
+    float: left;
+    width: 33.33%;
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+
+    }
+    
+}
+
+.title__network{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hobbies__title{
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__img{
+    mix-blend-mode: multiply;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+}
+
+.academic__title{
+    font-size: 30px;
+    text-align: center;
+    color: pink;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.experience__section__title{
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+}
+
+.academic__courses{
+    font-size: 30px;
+    text-align: center;
+    color: palevioletred;
+}
+
+.experience__info{
+    font-size: 30px;
+    color: palevioletred;
+    text-align: center;
+}
+
+.experience__title{
+    font-size: 30px;
+    color: pink;
+}
+
+.experience__text{
+    font-size: 25px;
+    color: palevioletred;
+}
+
+.formcontato--esquerda{
+    mix-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+}
+
+.formcontato__text{
+    text-align: center;
+    color: palevioletred;
+    font-size: 20px;
+}
+
+.footer{
+    text-align: center;
+    color: palevioletred;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sessão Menu*/
+
+section.menu{
+
+}
+
+/*Sessão Title*/
+
+section.title{
+
+}
+
+/*Sessão About*/
+
+section.about{
+
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
